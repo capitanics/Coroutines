@@ -17,6 +17,8 @@ const int MAX_LOG_LINES = 5;
 #define COLOR_YELLOW "\033[33m"
 #define COLOR_BLUE "\033[34m"
 
+using namespace co_lib;
+
 class Table {
 public:
   Table() {

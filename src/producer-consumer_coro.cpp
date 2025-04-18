@@ -12,6 +12,8 @@ const int MAX_LOG_LINES = 5;
 
 std::deque<std::string> log_messages;
 
+using namespace co_lib;
+
 // ANSI Escape Codes
 #define CLEAR_SCREEN "\033[2J\033[H"
 #define COLOR_RESET "\033[0m"
