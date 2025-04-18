@@ -12,7 +12,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-#include "coroutines.hpp"
+#include "../src/co_lib.hpp"
 
 const char *SERVER_HOST = "127.0.0.1";
 const int SERVER_PORT = 9090;

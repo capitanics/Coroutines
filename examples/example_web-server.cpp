@@ -11,7 +11,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-#include "coroutines.hpp"
+#include "../src/co_lib.hpp"
 
 const int SERVER_PORT = 8080;
 const int MAX_CONNECTIONS = 1024;
